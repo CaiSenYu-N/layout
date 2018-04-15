@@ -1,0 +1,34 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#content:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* .aside{
+  width: 200px;
+  height: 500px;
+  background-color: yellow;
+  float: left;
+} */
+
+.aside1{
+  width: 200px;
+  height: 500px;
+  background-color: blue;
+  float: right;
+}
+
+.main{
+  /* margin-left: 210px; */
+  height: 500px;
+  background-color: red;
+}
+
+#footer{
+  background-color: #ccc;
+}
